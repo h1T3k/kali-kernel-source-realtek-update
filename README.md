@@ -35,6 +35,3 @@ For nineplus AC1200 wireless card (capable of packet injection)
     dkms add -m rtl88x2bu -v git
     dkms autoinstall
     ..
-
-
-5f0a9f55c0d7a.jpg
