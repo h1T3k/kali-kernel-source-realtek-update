@@ -1,5 +1,5 @@
 # kali-kernel-source
-kernel header update instructions for pre-custom-kernel wifi driver install
+kernel header update instructions for custom-kernel / wifi driver install
 
 
 
