@@ -4,9 +4,9 @@ kernel header update instructions for custom-kernel / wifi driver install
     kali-tweaks
 select 'repositories'
 
-check bleeding-edge
+check 'bleeding-edge'
 
-check expiremental
+check 'expiremental'
 
 check Apply
 
