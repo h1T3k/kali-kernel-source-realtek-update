@@ -8,7 +8,7 @@ check 'bleeding-edge'
 
 check 'expiremental'
 
-check 'Apply'
+select 'Apply'
 
     sudo apt update
 
