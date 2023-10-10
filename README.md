@@ -35,7 +35,7 @@ For nineplus AC1200 wireless card (capable of packet injection)
     mkdir /apps
     cd /apps/
 
---copy all the down lines to the command---- 
+--copy all the lines down to (and including) the command '..'-- 
 
     git clone "https://github.com/RinCat/RTL88x2BU-Linux-Driver.git" /usr/src/rtl88x2bu-git
     sed -i 's/PACKAGE_VERSION="@PKGVER@"/PACKAGE_VERSION="git"/g' /usr/src/rtl88x2bu-git/dkms.conf
