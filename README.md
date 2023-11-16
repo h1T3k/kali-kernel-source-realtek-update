@@ -1,6 +1,9 @@
 # kali-kernel-source
 kernel header update instructions for custom-kernel / wifi driver install
 
+First, go to settings and make sure your computer won't pass out before you do, as you may want to take a nap or make some eggs during the process of installing EVERY TOOL POSSIBLE, buahahaha!
+
+
     kali-tweaks
 select 'repositories'
 
@@ -42,3 +45,6 @@ For nineplus AC1200 wireless card (capable of packet injection)
     dkms add -m rtl88x2bu -v git
     dkms autoinstall
     ..
+
+
+Finally, reset your power and security settings once you have finished with this process.
