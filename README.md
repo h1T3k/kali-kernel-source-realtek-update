@@ -5,6 +5,12 @@ First, go to settings and make sure your computer won't pass out before you do, 
 
 
     kali-tweaks
+select 'network settings'
+
+check 'install packages by https'
+
+select ok
+
 select 'repositories'
 
 check 'bleeding-edge'
