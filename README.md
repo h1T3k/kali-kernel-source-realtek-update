@@ -19,7 +19,7 @@ than enter
 
     sudo apt update -y && sudo apt upgrade -y && sudo apt install linux-image-amd64 -y
 
-    sudo reboot
+    sudo reboot now
 
     sudo apt install build-essential libelf-dev linux-headers-$(uname -r) -y
 
