@@ -7,31 +7,21 @@ First, go to settings and make sure your computer won't pass out before you do, 
     kali-tweaks
 select 'network settings'
 
-check 'install packages by https'
+select repositories and check:
 
-select ok
-
-select 'repositories'
-
-check 'bleeding-edge'
-
-check 'expiremental'
+'install packages by https'
+'bleeding-edge'
+'expiremental'
 
 select 'Apply'
 
-    sudo apt update
+than enter
 
-
-    sudo apt upgrade
-
-
-    sudo apt install linux-image-amd64
-
+    sudo apt update -y && sudo apt upgrade -y && sudo apt install linux-image-amd64 -y
 
     sudo reboot
 
-
-    sudo apt install build-essential libelf-dev linux-headers-$(uname -r)
+    sudo apt install build-essential libelf-dev linux-headers-$(uname -r) -y
 
 
 For nineplus AC1200 wireless card (capable of packet injection)
@@ -51,6 +41,3 @@ For nineplus AC1200 wireless card (capable of packet injection)
     dkms add -m rtl88x2bu -v git
     dkms autoinstall
     ..
-
-
-Finally, reset your power and security settings once you have finished with this process.
