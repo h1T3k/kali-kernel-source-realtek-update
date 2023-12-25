@@ -1,7 +1,7 @@
 # kali-kernel-source
 kernel header update instructions for custom-kernel / wifi driver install
 
-First, go to settings and make sure your computer won't pass out before you do, as you may want to take a nap or make some eggs during the process of installing EVERY TOOL POSSIBLE, buahahaha!
+First, go to settings and make sure your computer won't pass out before you do, as you may want to take a nap or make some eggs during the process of installation.
 
 (this may require several reboots)
 
