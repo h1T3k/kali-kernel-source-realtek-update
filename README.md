@@ -19,7 +19,7 @@ select 'Apply'
 
 than enter
 
-    sudo apt update -y && sudo apt upgrade -y && sudo apt install linux-image-amd64 -y
+    sudo apt update && sudo apt upgrade && sudo apt install linux-image-amd64 -y
 
     sudo reboot now
 
