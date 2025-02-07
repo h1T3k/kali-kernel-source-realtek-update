@@ -1,4 +1,4 @@
-# kali-kernel-source
+# kali-kernel-source&realtek-update
 kernel header update instructions for custom-kernel / wifi driver install
 
     kali-tweaks
